@@ -1,0 +1,5 @@
+package com.example.demo.repository;
+//Database communication (JPA)
+public class ProductRepository {
+
+}

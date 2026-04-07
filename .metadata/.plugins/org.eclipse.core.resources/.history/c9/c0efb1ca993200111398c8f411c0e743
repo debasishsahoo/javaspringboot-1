@@ -1,0 +1,49 @@
+package com.example.demo.controller;
+//Handles HTTP requests
+//Talks to service layer
+//No business logic
+
+import java.util.List;
+import org.springframework.web.bind.annotation.*;
+import com.example.demo.model.Product;
+import com.example.demo.service.ProductService;
+
+import lombok.RequiredArgsConstructor;
+
+
+@RestController
+@RequestMapping("/api/products")
+@RequiredArgsConstructor
+@CrossOrigin("*")
+public class ProductController {
+	  private final ProductService service;
+	  
+	  @PostMapping
+	    public Product create(@RequestBody Product product) {
+	        return service.create(product);
+	    }
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+}

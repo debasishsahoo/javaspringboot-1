@@ -1,0 +1,10 @@
+package com.example.demo.repository;
+//Database communication (JPA)
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.example.demo.model.Product;
+
+
+
+public class ProductRepository extends JpaRepository<Product,Long> {
+
+}

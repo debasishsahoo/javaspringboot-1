@@ -1,0 +1,6 @@
+package com.example.demo.exception;
+//Centralized error handling
+//Clean API responses
+public class GlobalExceptionHandler {
+
+}

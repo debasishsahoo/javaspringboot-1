@@ -1,0 +1,8 @@
+package com.example.demo.controller;
+//Handles HTTP requests
+//Talks to service layer
+//No business logic
+
+public class ProductController {
+
+}

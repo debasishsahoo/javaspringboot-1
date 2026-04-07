@@ -1,0 +1,7 @@
+package com.example.demo.service;
+//Core business logic
+//Validation + processing
+//Calls repository
+public class ProductService {
+
+}
