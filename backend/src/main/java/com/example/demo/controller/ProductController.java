@@ -18,6 +18,8 @@ import lombok.RequiredArgsConstructor;
 public class ProductController {
 	  private final ProductService service;
 	  
+	
+	  
 	  //POST http://localhost:8000/api/products/
 	  @PostMapping
 	    public Product create(@RequestBody Product product) {
