@@ -15,7 +15,9 @@ public class ProductServiceImpl implements ProductService {
 	
 	private final ProductRepository repo;
 	
-	 
+	public ProductServiceImpl(ProductRepository repo) {
+        this.repo = repo;
+    }
 	
 	public Product create(Product product) {
 		return repo.save(product);
